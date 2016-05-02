@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">Popular Photos</string>
     <string name="newtext">new text</string>
+    <string name="title_activity_comments">CommentsActivity</string>
+    <string name="NumberofLikes">Number of Likes</string>
+    <string name="Caption">Caption</string>
+    <string name="username">Username</string>
+    <string name="timespan">Timespan</string>
+    <string name="title_activity_instagram_user">InstagramUser</string>
+    <string name="title_activity_instagram_hash_tag">InstagramHashTag</string>
+    <string name="viewallcomments">View all comments</string>
+    <string name="firstcomment">First Comment</string>
+    <string name="secondcomment">Second Comment</string>
+    <string name="addcomment">Add comment</string>
 </resources>

@@ -3,8 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.patcomp.instagramclient.PhotosActivity">
+    tools:context="com.patcomp.instagramclient.PhotosActivity"
+    android:background="@color/colorWhiteBackground">
 
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swipeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <ListView
         android:layout_width="wrap_content"
@@ -15,4 +21,6 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"/>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
 </RelativeLayout>
